@@ -1,4 +1,4 @@
-#### A program to solve the traveling salesman problem for Trackmania.
+## A program to solve the traveling salesman problem for Trackmania.
 
 Trackmania is a computer game where you can create your own maps. To finish a map you need to drive through every checkpoint (CP) and then over a finish line. In which order you do this is not important.
 
@@ -20,11 +20,13 @@ You still need to check for yourself if the new way is faster. I added a way to 
 
 #### How to use the program:
 
-1. Download
+1. Download the Jar from the Jar Folder
 2. Execute
 3. Enter the number of checkpoints
 4. Fill out the grid.
 5. Click on compute 
+6. Enter name
+7. Done
 
 Filling out the grid is easy:
 
