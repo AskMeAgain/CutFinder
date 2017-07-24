@@ -1,4 +1,4 @@
-A program to solve the traveling salesman problem for Trackmania.
+#A program to solve the traveling salesman problem for Trackmania.
 
 Trackmania is a computer game where you can create your own maps. To finish a map you need to drive through every checkpoint (CP) and then over a finish line. In which order you do this is not important.
 
