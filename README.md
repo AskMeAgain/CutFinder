@@ -1,4 +1,4 @@
-#A program to solve the traveling salesman problem for Trackmania.
+A program to solve the traveling salesman problem for Trackmania.
 
 Trackmania is a computer game where you can create your own maps. To finish a map you need to drive through every checkpoint (CP) and then over a finish line. In which order you do this is not important.
 
@@ -8,6 +8,7 @@ Start -> CP 1 -> CP 2 -> Finish
 
 it could be faster to drive 
 
+
 Start -> CP 2 -> CP 1 -> Finish.
 
 For short maps it is possible to do this by hand, but for long maps (50CPs+) this way is not sufficient. Here is where my program comes into play. 
@@ -15,7 +16,6 @@ For short maps it is possible to do this by hand, but for long maps (50CPs+) thi
 You check for every CP which other CPs can be reached. You enter these into a table and the program will output every possible combination on how to drive it.
 
 Ofcourse you need to check for yourself if the new way is faster. I added a way to enter numbers, but flying start would improve the time.
-
 
 How to use the program:
 
