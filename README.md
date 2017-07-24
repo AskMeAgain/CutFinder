@@ -38,7 +38,7 @@ Using a divide and conquere algorithm to check for every possible combination. S
 
 The algorithm takes an adjacense list (two dimensional array) and a list to show which route we already went. The algorithm calls itself for every possible CP the route could follow up (we just check for the last element in our route list and see if we have any numbers in our adjacense list. It will also return the same array, but changed the choosen CP to -1. This way we dont go to an CP we already used before.
 
-The algorithm stops when the size of our list is equal to the number of CPs reached + 1 (we still need to go to a finish line!). We dont need to check for a correct CP order because we can only add CPs which are correct anyway (due to our adjacence list). We also dont need to check to end if a route ends in a finish line, because if we have a route which is the number of the CPs in the map plus one, we have automaticly end in a finish line because every finish line end the algorithm.
+The algorithm stops when the size of our list is equal to the number of all CPs + 1 (we still need to go to a finish line!). We dont need to check for a correct CP order because we can only add CPs which are correct anyway (due to our adjacence list). We also dont need to check if a route ends in a finish line, because if we have a route which is the number of the CPs in the map plus one, we have automatically end in a finish line because every finish line ends the algorithm (only because there is no way to go from a Finish line to a CP due to the design of the grid).
 
 #### Options
 
