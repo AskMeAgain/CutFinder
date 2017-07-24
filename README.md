@@ -44,6 +44,8 @@ There are multiple options to provde an easier/faster work flow
 
 ![alt text](https://puu.sh/wRSwZ/6f9b91b48e.png "Main Page")
 
+#### File Storage
 
+Your grid can be saved to file for later use. The result can be saved too.
 
 
