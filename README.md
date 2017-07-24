@@ -10,19 +10,19 @@ it could be faster to drive
 
 ##### Start -> CP 2 -> CP 1 -> Finish.
 
-For short maps it is possible to do this by hand, but for long maps (50CPs+) this way is not sufficient It is impossible to find all possible combinations. Maybe a combination is faster then the original way?
+For short maps it is possible to do this by hand, but for long maps (50CPs+) this way is not sufficient. It is impossible to find all possible combinations. Maybe a combination is faster then the original way?
 
 Here is where my program comes into play. 
 
 ![alt text](https://puu.sh/wRSph/79ec2742dc.png "Main Page")
 
-You check for every CP which other CPs can be reached. You enter these into a table and the program will output every possible combination on how to drive it.
+You check for every CP which other CPs can be reached. You enter these into a grid and the program will output every possible combination on how to drive it.
 
 You still need to check for yourself if the new way is faster. I added a way to enter numbers, but flying start would improve the time.
 
 #### How to use the program:
 
-1. Download the Jar from the Jar Folder
+1. Download the Jar from the Jar Folder here on github
 2. Execute
 3. Enter the number of checkpoints
 4. Fill out the grid.
@@ -36,7 +36,7 @@ If you can drive from CP1 -> CP5, CP7, CP10, you go into Column 1 and enter a 1 
 
 #### How is the program working:
 
-Using a divide and conquere algorithm to check for every possible combination. Since not even 10% of the grid will be filled, we dont need to do any fancy algorithm and can just check for every possible way. 
+Using a divide and conquere algorithm to check for every possible combination. Since not even 10% of the grid is filled most of the time, we dont need to do any fancy algorithm and can just check for every possible way.
 
 The algorithm takes an adjacense list (two dimensional array) and a list to show which route we already went. The algorithm calls itself for every possible CP the route could follow up (we just check for the last element in our route list and see if we have any numbers in our adjacense list. It will also return the same array, but changed the choosen CP to -1. This way we dont go to an CP we already used before.
 
