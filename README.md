@@ -34,7 +34,7 @@ You still need to check for yourself if the new way is faster. I added a way to 
 
 Filling out the grid is easy:
 
-If you can drive from CP1 -> CP5, CP7, CP10, you go into Column 1 and enter a 1 in Row 5, 7 & 10. Dont forget the finish lines or else the program wont find a correct way.
+If you can drive from CP1 -> CP5, CP7, CP10, you go into Column 1 and enter a number in Row 5, 7 & 10. Dont forget the finish lines or else the program wont find a correct route.
 
 #### How is the program working:
 
